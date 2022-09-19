@@ -18,14 +18,14 @@ export default function Usuario(props) {
 }
 
 function changeName(setName){
-  let name = prompt('Escolha a nova imagem de perfil:');
+  let name = prompt('Escolha o novo nome:');
   if(name!==undefined){
     setName(name);
   }
 }
 
 function changeImg(setImg){
-  let img = prompt('Escolha o novo nome:');
+  let img = prompt('Escolha a nova imagem de perfil:');
   if(img!==undefined){
     setImg(img);
   }
